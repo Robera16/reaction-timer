@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import Block from './components/Block.vue'
+import Block from './components/Blocks.vue'
 
 export default {
   name: 'App',
-  components: { Block},
+  components: {Block},
   data(){
     return {
       isPlaying: false,
-      delay: null
+      delay: null 
     }
   },
   methods: {
